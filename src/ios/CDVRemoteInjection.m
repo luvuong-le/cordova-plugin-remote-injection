@@ -23,7 +23,7 @@
     /*
      Reference to the currently displayed alert view.  Can be NULL.
      */
-    UIAlertView *alertView;
+    UIAlertController *alertController;
     
     /*
      * Delegate instance for the type of webView the containing app is using.
